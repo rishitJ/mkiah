@@ -1,0 +1,53 @@
+<html>
+  
+<head>
+  <meta charset="UTF-8">
+  <title>Intro p5.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas 
+  {
+  	border:5px solid black;
+  }
+  body
+  {
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  label
+  {
+    font-size: large;
+    font-style: italic;
+  }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <center>
+	<h3 class="btn btn-primary">Introduction to p5.js</h3>
+	<hr>
+  <label>Filter Color:</label>
+  <input id="clr_wsup" class="form-control" placeholder="Type a color">
+  <br>
+  <button onclick="apply_tint()" class="btn btn-danger">Apply Filter</button>
+    <button onclick="take_snapshot()" class="btn btn-warning">Take Snapshot</button>
+  </center>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
